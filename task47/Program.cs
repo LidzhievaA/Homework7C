@@ -15,7 +15,7 @@ double[,] CreateMatrixRnd(int rows, int columns, int min, int max)
 
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = Math.Round((rnd.NextDouble() * (max - min) + min) , 2);
+            matrix[i, j] = Math.Round((rnd.NextDouble() * (max - min) + min), 2);
 
         }
     }
